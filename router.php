@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_GET['page']) && file_exists("./views/template_". $_GET['page'].".phtml") ) {
+if (isset($_GET['page']) && file_exists("./controller/controller_". $_GET['page'].".php") ) {
     $page = $_GET['page']; 
 } else {
     $page='home'; 
