@@ -10,4 +10,4 @@ const CONFIG_ROUTES = [
     "contact" => "contact",
 ];
 
-const DB_NAME = "mabdd"; 
+const DB_NAME = "mabdd";
