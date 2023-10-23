@@ -5,5 +5,4 @@ if (isset($_GET['page'])) {
     $template = CONFIG_ROUTES["$page"]; 
 }
 
-
 ?>
