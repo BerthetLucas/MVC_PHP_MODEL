@@ -5,5 +5,5 @@ if (isset($_GET['page']) && file_exists("./views/template_". $_GET['page'].".pht
 } else {
     $page='home'; 
 }
-$template = CONFIG_ROUTES[$page];
+$page = CONFIG_ROUTES[$page];
 
